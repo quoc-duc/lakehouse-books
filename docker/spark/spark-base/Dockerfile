@@ -1,6 +1,7 @@
 # Base image for Spark with OpenJDK 8
 FROM openjdk:8-jdk-slim
 
+
 # Define the Spark version and Hadoop version
 ARG SPARK_VERSION=3.4.0
 ARG HADOOP_VERSION=3
