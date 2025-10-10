@@ -61,8 +61,8 @@ Despite using stable technologies, the platform is a work in progress. We are co
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/quoc-duc/lakehouse-books
-   cd lakehouse-books
+   git clone https://github.com/quoc-duc/lakehouse-tuyensinh
+   cd lakehouse-tuyensinh
    ```
 
 2. **Build and run the services**:
@@ -70,7 +70,9 @@ Despite using stable technologies, the platform is a work in progress. We are co
    ```bash
    make all
    ```
-
+   ```bash
+   docker compose down -v 
+   ```
 3. **Access the services**:
    - **Superset**: [http://localhost:8088](http://localhost:8088)
    - **Trino**: [http://localhost:8443](http://localhost:8443)
