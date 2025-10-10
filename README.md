@@ -51,11 +51,6 @@ Despite using stable technologies, the platform is a work in progress. We are co
 
 ## Getting Started
 
-### Prerequisites
-
-- Docker and Docker Compose installed on your machine.
-- A basic understanding of the tools used in the platform.
-
 ### Installation
 
 1. **Clone the repository**:
